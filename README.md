@@ -34,7 +34,7 @@ Aurora Energy aims to propel global efforts toward a resilient and environmental
 - [FontAwesome 5.15.3](https://fontawesome.com/)
 
 ## License
----- None ----
+MIT License
 
 ## Developer
 Vishodhan K.S.
