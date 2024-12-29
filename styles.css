@@ -1,0 +1,173 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 55px;
+    background-color: #f8f9fa;
+    color: #000;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #222;
+    z-index: 1050;
+}
+.navbar a {
+    color: #fff;
+}
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+.navbar-brand:hover, .nav-link:hover {
+    color: #0d6efd !important;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #0a0a0a, #222);
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Highlighted Text */
+.highlight {
+    color: #28a745;
+}
+
+/* Cards */
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.card-title {
+    font-weight: bold;
+    color: #000;
+}
+.card-text {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Images */
+.img-container img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.img-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Buttons */
+.btn-custom {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+}
+.btn-custom:hover {
+    background-color: #218838;
+}
+
+/* Sticky Elements */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+}
+footer a {
+    color: #28a745;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+.contact-header {
+    background-color: #000;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+.contact-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+.section-card {
+    background-color: #fff;
+    color: #212529;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+}
+.section-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.section-card p {
+    margin-bottom: 0.5rem;
+}
+
+/* Map Section */
+.map-container {
+    height: 500px;
+}
+.map-legend {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.map-legend ul {
+    list-style: none;
+    padding: 0;
+}
+.map-legend ul li {
+    margin-bottom: 5px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    margin-bottom: 15px;
+    padding: 1.5rem 1rem;
+}
+
+/* Icons */
+.icons {
+    text-align: center;
+    padding: 20px 0;
+}
+.icons i {
+    font-size: 3rem;
+    color: #28a745;
+    margin: 10px;
+}
+
+.feature-icon {
+    font-size: 3.25rem; 
+    color: #28a745; 
+    margin-bottom: 15px; 
+}
